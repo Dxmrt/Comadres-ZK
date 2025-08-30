@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body { @apply bg-comadres-primary text-comadres-dark; }
+  body { @apply min-h-screen; }
+  h1, h2, h3, h4 { @apply mb-2 leading-tight; }
+  ::selection { background: rgba(199,103,130,.35); color: #fff; }
+}
+@layer components {
+  .btn { @apply shadow-md; }
+  .btn.btn-ghost { @apply shadow-none; }
+}

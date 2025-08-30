@@ -1,0 +1,16 @@
+{
+  "name": "@comadres/contracts-simple",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "deploy:ic": "node ./scripts/deploy-ic.js",
+    "register:ic": "node ./scripts/register-ic.js 12345678901234567890"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "solc": "^0.8.20"
+  }
+}

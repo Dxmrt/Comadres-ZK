@@ -1,0 +1,1 @@
+import { randomBytes } from 'crypto'; export async function GET(){ return new Response(randomBytes(16).toString('base64url')); }
