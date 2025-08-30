@@ -1,4 +1,4 @@
-# 🌸 Las Comadres ZK — MVP  
+# 🌸 Comadres ZK — MVP  
 
 Red de acompañamiento seguro para mujeres, con conexión a **Lisk Sepolia** y flujo mínimo para crear y asignar solicitudes.  
 Este MVP está centrado en **privacidad práctica (SIWE)** y preparado para añadir **Semaphore** y on-chain mínimo.  
