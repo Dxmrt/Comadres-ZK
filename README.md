@@ -149,7 +149,8 @@ Apps tradicionales optimizan para ads. Comadres ZK optimiza para supervivencia.
 
 ## 🎯 Web3 Difference
 Apps Web2: MAU, ads, engagement → profit
-Comadres ZK: vidas protegidas, resistencia a censura → liberación
+
+**Comadres ZK: vidas protegidas, resistencia a censura → liberación**
 
 ## ✅ Requisitos
 
