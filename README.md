@@ -71,6 +71,81 @@ Aqui está el link al video de pitch de Comadres ZK: https://www.youtube.com/wat
 └─ README.md
 ```
 
+🚀 Estrategia de Escalabilidad
+
+📊 Arquitectura para el Crecimiento
+Este MVP está diseñado como base para una infraestructura de resistencia feminista escalable y descentralizada:
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Load Balancer │    │   API Gateway   │    │   Microservices │
+│    (Cloudflare) │───▶│    (Kong/Zuul)  │───▶│   (Node.js)     │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+                                │
+                ┌───────────────┼───────────────┐
+                ▼               ▼               ▼
+        ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+        │   Users     │ │  Requests   │ │ Reputation  │
+        │  Service    │ │  Service    │ │   Service   │
+        └─────────────┘ └─────────────┘ └─────────────┘
+                │               │               │
+                ▼               ▼               ▼
+        ┌─────────────────────────────────────────────┐
+        │           PostgreSQL Cluster               │
+        │        (Primary + Read Replicas)           │
+        └─────────────────────────────────────────────┘
+
+🎯 Fases de Evolución
+Fase 1: Fundación Sólida (0-3 meses)
+
+Backend persistente: Migración de API en memoria → PostgreSQL + Prisma
+Autenticación robusta: SIWE + JWT con refresh tokens
+Monitoreo: Logs, métricas y alertas básicas
+Testing: Suite completa de tests automatizados
+
+Fase 2: Funcionalidades Clave (3-6 meses)
+
+Sistema de reputación: Contratos inteligentes para confianza verificable
+Notificaciones tiempo real: WebSockets + Push notifications
+Geolocalización inteligente: Matching por proximidad sin comprometer privacidad
+Mobile PWA: Aplicación móvil con capacidades offline
+
+Fase 3: ZK & Privacidad Avanzada (6-9 meses)
+
+Semaphore completo: Pruebas ZK para identidad y reputación
+Privacidad por capas: Múltiples niveles de protección de datos
+DAO governance: Decisiones descentralizadas de la comunidad
+Multi-chain: Soporte para Polygon, Optimism, Base
+
+Fase 4: Ecosistema Global (9-12 meses)
+
+App nativa móvil: React Native con biometrics
+Integraciones: ONGs, servicios emergencia, ride-sharing
+Expansión internacional: Localización y partnerships regionales
+Infraestructura distribuida: Nodos globales resistentes a censura
+
+🔒 Principios de Escalabilidad
+Seguridad y Privacidad
+
+Nunca sacrificar privacidad por conveniencia
+Auditorías constantes de contratos y infraestructura
+Encriptación end-to-end en todas las comunicaciones
+Zero-trust architecture en todos los componentes
+
+Descentralización Real
+
+Sin puntos únicos de falla en la infraestructura
+Gobernanza distribuida entre la comunidad
+Datos replicados geográficamente
+Código abierto y auditabilité por la comunidad
+
+Sostenibilidad Financiera
+
+Grants y funding de organizaciones Web3 y derechos humanos
+Modelo freemium con funciones premium opcionales
+Treasury DAO manejada por la comunidad
+Partnerships estratégicos con ONGs y gobiernos progresistas
+
+
+
 ## ✅ Requisitos
 
 Node 18+
