@@ -71,9 +71,9 @@ Aqui está el link al video de pitch de Comadres ZK: https://www.youtube.com/wat
 └─ README.md
 ```
 
-🚀 Estrategia de Escalabilidad
+## 🚀 Estrategia de Escalabilidad
 
-📊 Arquitectura para el Crecimiento
+## 📊 Arquitectura para el Crecimiento
 Este MVP está diseñado como base para una infraestructura de resistencia feminista escalable y descentralizada:
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Load Balancer │    │   API Gateway   │    │   Microservices │
@@ -93,58 +93,78 @@ Este MVP está diseñado como base para una infraestructura de resistencia femin
         │        (Primary + Read Replicas)           │
         └─────────────────────────────────────────────┘
 
-🎯 Fases de Evolución
-Fase 1: Fundación Sólida (0-3 meses)
+## 🎯 Fases de Evolución
+**Fase 1: Fundación Sólida (0-3 meses)**
 
 Backend persistente: Migración de API en memoria → PostgreSQL + Prisma
 Autenticación robusta: SIWE + JWT con refresh tokens
 Monitoreo: Logs, métricas y alertas básicas
 Testing: Suite completa de tests automatizados
 
-Fase 2: Funcionalidades Clave (3-6 meses)
+**Fase 2: Funcionalidades Clave (3-6 meses)**
 
 Sistema de reputación: Contratos inteligentes para confianza verificable
 Notificaciones tiempo real: WebSockets + Push notifications
 Geolocalización inteligente: Matching por proximidad sin comprometer privacidad
 Mobile PWA: Aplicación móvil con capacidades offline
 
-Fase 3: ZK & Privacidad Avanzada (6-9 meses)
+**Fase 3: ZK & Privacidad Avanzada (6-9 meses)**
 
 Semaphore completo: Pruebas ZK para identidad y reputación
 Privacidad por capas: Múltiples niveles de protección de datos
 DAO governance: Decisiones descentralizadas de la comunidad
 Multi-chain: Soporte para Polygon, Optimism, Base
 
-Fase 4: Ecosistema Global (9-12 meses)
+**Fase 4: Ecosistema Global (9-12 meses)**
 
 App nativa móvil: React Native con biometrics
 Integraciones: ONGs, servicios emergencia, ride-sharing
 Expansión internacional: Localización y partnerships regionales
 Infraestructura distribuida: Nodos globales resistentes a censura
 
-🔒 Principios de Escalabilidad
-Seguridad y Privacidad
+## 🔒 Principios de Escalabilidad
+**Seguridad y Privacidad**
 
 Nunca sacrificar privacidad por conveniencia
 Auditorías constantes de contratos y infraestructura
 Encriptación end-to-end en todas las comunicaciones
 Zero-trust architecture en todos los componentes
 
-Descentralización Real
+**Descentralización Real**
 
 Sin puntos únicos de falla en la infraestructura
 Gobernanza distribuida entre la comunidad
 Datos replicados geográficamente
 Código abierto y auditabilité por la comunidad
 
-Sostenibilidad Financiera
+**Sostenibilidad Financiera**
 
-Grants y funding de organizaciones Web3 y derechos humanos
-Modelo freemium con funciones premium opcionales
-Treasury DAO manejada por la comunidad
-Partnerships estratégicos con ONGs y gobiernos progresistas
+**Grants y funding** de organizaciones Web3 y derechos humanos
+**Modelo freemium** con funciones premium opcionales
+**Treasury DAO** manejada por la comunidad
+**Partnerships estratégicos** con ONGs y gobiernos progresistas
 
+## 📈 Métricas de Impacto
 
+Apps tradicionales optimizan para ads. Comadres ZK optimiza para supervivencia.
+
+## 🔧 Técnicas
+
+**Uptime >99.9%:** Funciona 24/7, resistente a censura
+**Response <200ms:** Más rápido que Instagram porque vidas dependen
+**ZK proofs <5s:** Privacidad sin sacrificar velocidad
+**Scale 100K+:** Red global descentralizada
+
+## 💜 Sociales (Impacto real)
+
+**Matching >90%:** 9 de 10 solicitudes atendidas (vs servicios tradicionales ~60%)
+**Retention >70%:** Comadres activas = red fuerte
+**Coverage 50+:** Ciudades globales sin fronteras
+**Trust >4.8/5:** Confianza verificable on-chain
+
+## 🎯 Web3 Difference
+Apps Web2: MAU, ads, engagement → profit
+Comadres ZK: vidas protegidas, resistencia a censura → liberación
 
 ## ✅ Requisitos
 
