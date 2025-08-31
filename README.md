@@ -71,6 +71,43 @@ Aqui está el link al video de pitch de Comadres ZK: https://www.youtube.com/wat
 └─ README.md
 ```
 
+## ✅ Requisitos
+
+Node 18+
+
+Yarn
+
+Wallet en Lisk Sepolia (MetaMask, etc.)
+
+## 🔧 Configuración
+
+Variables opcionales en packages/nextjs/.env.local:
+
+#### Dirección del contrato mínimo (si activas on-chain)
+NEXT_PUBLIC_REGISTRY_ADDRESS=0x...
+
+#### Activa escritura on-chain de eventos (true/false)
+NEXT_PUBLIC_ONCHAIN=true
+
+#### Opcional: WalletConnect. Si no lo pones, usa 'demo'
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=xxxx
+
+Flags en src/config/flags.ts:
+
+export const FLAGS = {
+  onchain: true,                    // activa eventos on-chain (Lisk)
+  semaphoreRequiredToAssign: false, // exigir prueba de Semaphore al asignar
+  zkpassRequiredForComadre: false,  // reservado
+};
+
+## ▶️ Cómo ejecutar
+
+yarn
+yarn dev
+abre http://localhost:3000
+
+
+
 ## 🚀 Estrategia de Escalabilidad
 
 ## 📊 Arquitectura para el Crecimiento
@@ -152,37 +189,33 @@ Apps Web2: MAU, ads, engagement → profit
 
 **Comadres ZK: vidas protegidas, resistencia a censura → liberación**
 
-## ✅ Requisitos
+## 🤝 Contribuir
+Este proyecto es resistencia feminista codificada. Necesitamos:
 
-Node 18+
+🧑‍💻 Desarrolladoras: Frontend, backend, smart contracts, ZK circuits
+🎨 Diseñadoras: UX/UI centrado en seguridad y privacidad
+🔐 Security researchers: Auditorías, pentesting, threat modeling
+🌍 Activistas: Testing, feedback, expansión comunitaria
+💰 Funding: Grants, donaciones, partnerships
 
-Yarn
+**Próximos pasos críticos:**
 
-Wallet en Lisk Sepolia (MetaMask, etc.)
+Migrar API de memoria a PostgreSQL
+Implementar testing automatizado
+Mejorar UI/UX del frontend
+Setup CI/CD para deployments seguros
 
-## 🔧 Configuración
+**¿Quieres contribuir? Revisa nuestras issues abiertas o crea una nueva.**
 
-Variables opcionales en packages/nextjs/.env.local:
+## 📜 Licencia
+MIT License - Código libre para la resistencia libre.
 
-#### Dirección del contrato mínimo (si activas on-chain)
-NEXT_PUBLIC_REGISTRY_ADDRESS=0x...
+## 💜 Contacto
 
-#### Activa escritura on-chain de eventos (true/false)
-NEXT_PUBLIC_ONCHAIN=true
+Website: comadres-zk.org (coming soon)
+Twitter: @cypherpkculture
 
-#### Opcional: WalletConnect. Si no lo pones, usa 'demo'
-NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=xxxx
+## 🌸 Comadres ZK: Feminismo y criptografía, codificados en la blockchain.
+Una red imposible de cerrar.
 
-Flags en src/config/flags.ts:
 
-export const FLAGS = {
-  onchain: true,                    // activa eventos on-chain (Lisk)
-  semaphoreRequiredToAssign: false, // exigir prueba de Semaphore al asignar
-  zkpassRequiredForComadre: false,  // reservado
-};
-
-## ▶️ Cómo ejecutar
-
-yarn
-yarn dev
-abre http://localhost:3000
