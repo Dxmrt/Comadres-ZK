@@ -44,7 +44,7 @@ function LandingPage() {
               <Heart className="w-12 h-12 text-comadres-accent" />
             </div>
           </div>
-          <h1 className="text-5xl font-bold text-comadres-dark mb-4">Las Comadres ZK</h1>
+          <h1 className="text-5xl font-bold text-comadres-dark mb-4">Comadres ZK</h1>
           <p className="text-xl text-comadres-dark/80 max-w-2xl mx-auto mb-8">
             Red de acompañamiento seguro para mujeres. Privacidad garantizada, apoyo real cuando más lo necesitas.
           </p>
