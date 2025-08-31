@@ -28,6 +28,10 @@ Comadres_ZK es una red imposible de cerrar.
 
 Comadres_ZK: Feminismo y criptografía, codificados en la blockchain.
 
+## Video
+
+Aqui está el link al video de pitch de Comadres ZK: https://www.youtube.com/watch?v=4WR6WZ8qpQ4
+
 ## ✨ Funcionalidades (MVP)
 
 - 🔗 Conectar wallet con **RainbowKit/Wagmi** (fijado a Lisk Sepolia).  
