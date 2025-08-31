@@ -4,6 +4,29 @@ Red de acompañamiento seguro para mujeres, con conexión a **Lisk Sepolia** y f
 Este MVP está centrado en **privacidad práctica (SIWE)** y preparado para añadir **Semaphore** y on-chain mínimo.  
 
 ---
+## ✨ Problema
+Las redes de apoyo feministas ya existen, pero están en constante peligro. Las plataformas centralizadas pueden ser monitoreadas, censuradas o clausuradas. Necesitamos una infraestructura que proteja el anonimato, la autonomía corporal y el derecho a denunciar la violencia sin miedo.
+
+## ✨ Solucion
+Por eso nació Comadres_ZK: una plataforma descentralizada y anónima, diseñada como un santuario digital para la solidaridad feminista.
+
+Incorporación anónima y verificada: Con Pruebas de Conocimiento Cero, una Comadre demuestra que está capacitada sin revelar su identidad. Un beneficiario demuestra que cumple con los criterios de acceso sin revelar su identidad ni ubicación.
+
+Coordinación cifrada y descentralizada: Un sistema seguro de emparejamiento conecta las solicitudes cifradas con las Comadres disponibles. Las conversaciones se realizan en canales cifrados de extremo a extremo, imposibles de rastrear.
+
+DAO y tesorería de la resistencia: Gobernanza colectiva y anónima donde las Comadres deciden juntas. Y financiación con criptomonedas privadas que garantiza independencia y protección.
+
+## Comadres ZK
+
+Comadres_ZK no es solo tecnología. Es un acto político.
+
+Impacto social: Protege el derecho a decidir sobre nuestros cuerpos y a denunciar la violencia sin miedo. 
+
+Innovación técnica: ZKPs, DAOs y cifrado de extremo a extremo en un único modelo de resistencia. Cypherpunk y filosofía feminista: Privacidad, libertad y solidaridad como base de la autonomía.
+
+Comadres_ZK es una red imposible de cerrar.
+
+Comadres_ZK: Feminismo y criptografía, codificados en la blockchain.
 
 ## ✨ Funcionalidades (MVP)
 
